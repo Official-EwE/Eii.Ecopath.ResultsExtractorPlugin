@@ -21,7 +21,7 @@
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DefineDebug>false</DefineDebug>
-    <OutputPath>..\..\ScientificInterface\bin\Debug\</OutputPath>
+    <OutputPath>..\ScientificInterface\bin\Debug\</OutputPath>
     <DocumentationFile>EwEResultsExtractorPlugin.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
     <UseVSHostingProcess>true</UseVSHostingProcess>
@@ -58,16 +58,16 @@
   <ItemGroup>
     <Reference Include="Microsoft.Office.Interop.Excel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
       <EmbedInteropTypes>True</EmbedInteropTypes>
-      <HintPath>..\..\Includes\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <HintPath>..\Includes\Microsoft.Office.Interop.Excel.dll</HintPath>
     </Reference>
     <Reference Update="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
     <Reference Include="WeifenLuo.WinFormsUI.Docking">
-      <HintPath>..\..\Includes\WeifenLuo.WinFormsUI.Docking.dll</HintPath>
+      <HintPath>..\Includes\WeifenLuo.WinFormsUI.Docking.dll</HintPath>
     </Reference>
     <Reference Include="ZedGraph">
-      <HintPath>..\..\Includes\ZedGraph.dll</HintPath>
+      <HintPath>..\Includes\ZedGraph.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -154,6 +154,6 @@
     <PackageIcon>EII_plain_128x128.png</PackageIcon>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="..\..\README.md" Pack="True" PackagePath="\" />
-    <None Include="..\..\EII_plain_128x128.png" Pack="True" PackagePath="\" />
+    <None Include="..\README.md" Pack="True" PackagePath="\" />
+    <None Include="..\EII_plain_128x128.png" Pack="True" PackagePath="\" />
   </ItemGroup></Project>

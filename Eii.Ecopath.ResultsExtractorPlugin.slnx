@@ -12,5 +12,5 @@
     <File Path=".github/workflows/build-check.yml" />
     <File Path=".github/workflows/release-nuget.yml" />
   </Folder>
-  <Project Path="src/ResultsExtractorPlugin/EwEResultsExtractorPlugin.vbproj" />
+  <Project Path="ResultsExtractorPlugin/EwEResultsExtractorPlugin.vbproj" />
 </Solution>
